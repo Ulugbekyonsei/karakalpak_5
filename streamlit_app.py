@@ -35,7 +35,7 @@ def load_shapefile_zip(url):
     r = requests.get(url)
     z = zipfile.ZipFile(io.BytesIO(r.content))
     z.extractall("temp_shapefile")  # Extracts .shp, .dbf, .shx, etc.
-    return gpd.read_file("temp_shapefile/mahalla.shp")
+    return gpd.read_file("temp_shapefile/New folder/mahalla.shp")
 
 gdf = load_shapefile_zip(shapefile_zip_url)
 
