@@ -22,7 +22,7 @@ st.title("Spatial Data Analysis App")
 
 
 # URL to your JSON file hosted in your GitHub repository (using the raw link)
-json_url = "https://raw.githubusercontent.com/<username>/<repo>/main/myplotly_fig.json"
+json_url = "https://raw.githubusercontent.com/Ulugbekyonsei/karakalpak_5/master/myplotly_fig.json"
 
 # Fetch the JSON file from GitHub
 response = requests.get(json_url)
