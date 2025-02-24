@@ -19,7 +19,7 @@ st.title("Spatial Data Analysis App")
 # ----------------------------
 
 # Define the root directory and build file paths
-root_dir = r"https://github.com/Ulugbekyonsei/karakalpak_5/master"
+root_dir = r"https://github.com/Ulugbekyonsei/karakalpak_5"
 shapefile_path = os.path.join(root_dir, "mahalla.shp")
 raster_path = os.path.join(root_dir, "imputed_data_karakalpak.tif")
 csv_path = os.path.join(root_dir, "ndvi_polygons.csv")
