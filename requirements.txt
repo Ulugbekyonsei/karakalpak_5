@@ -1,0 +1,10 @@
+streamlit
+pandas
+geopandas
+fiona
+rasterio
+numpy
+scikit-learn
+plotly
+matplotlib
+statsmodels
